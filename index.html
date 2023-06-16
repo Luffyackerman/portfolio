@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en" class="light-mode">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JM PORTFOLIO</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel = "icon" href = "images/logo.png" type = "image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="custome.css?v=">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,800;0,900;1,100;1,200;1,900&display=swap" rel="stylesheet">
+</head>
+<style>
+</style>
+<body class="fade">
+    <nav class=" text-gray-100 shadow-lg">
+        <div class="max-w-10xl mx-auto backdrop-blur-lg">
+            <div class="flex justify-between">
+                <div class="container mx-auto flex flex-wrap items-center justify-between">
+                    <a href="#" class="flex px-4 py-2">
+                      <img src="images/logo.png" alt="">
+                    </a>
+
+                        <div class="hidden md:flex justify-center items-center space-x-1 menu">
+                            <a href="#home-section" class="py-4 px-2 border-b-2 border-blue-500 hover:text-blue-500 font-normal active text-blue-400">Home</a>
+                            <a href="#projects-section" class="py-4 px-2 text-gray-500 font-normal hover:text-blue-500 transition duration-300">Projects</a>
+                            <a href="#about-section" class="py-4 px-2 text-gray-500 font-normal hover:text-blue-500 transition duration-300">About</a>
+                            <a href="#skill-section" class="py-4 px-2 text-gray-500 font-normal hover:text-blue-500 transition duration-300">Skills</a>
+                        </div>
+                        <button onclick="toggleDarkMode()";>
+                            <div class=" px-2 py-1 rounded-full shadow-xl">
+                                    <i class="fa-solid fa-circle-half-stroke
+                                    text-gray-500
+                                    "></i>
+                            </div>
+                       </button>
+                  </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center px-4">
+                    <button class="outline-none mobile-menu-button">
+                    <svg class=" w-6 h-6 text-gray-500 hover:text-blue-500 "
+                        x-show="!showMenu"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                    >
+                        <path d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+                </div>
+            </div>
+        </div>
+        <!-- mobile menu -->
+        <div class="hidden mobile-menu bg-gray-700">
+                <button class="menu-btn"><i class="fa-solid fa-xmark hover:text-red-400 text-gray-400"></i></button>
+            <h1 class=" pl-5 pt-5 pb-5 menu ">Menu</h1>
+            <hr class=" border-dotted opacity-50">
+            <ul class="mt-5">
+                <li><a href="#home-section" class="block text-sm px-5 py-4 active text-white bg-blue-500 hover:bg-blue-400 ">Home</a></li>
+                <li><a href="#projects-section" class="block text-sm px-5 py-4 text-gray-400 hover:text-gray-200 hover:bg-blue-400 transition duration-300">Projects</a></li>
+                <li><a href="#about-section" class="block text-sm px-5 py-4 text-gray-400 hover:text-gray-200 hover:bg-blue-400 transition duration-300">About</a></li>
+                <li><a href="#skill-section" class="block text-sm px-5 py-4 text-gray-400 hover:text-gray-200 hover:bg-blue-400 transition duration-300">Skills</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="home-section">
+        <div class="flex justify-center">
+            <div class="items-center pt-5">
+                <h1 class="tracking-wider font-extrabold sm:text-2xl md:text-3xl lg:text-4xl xl:text-6xl 2xl:text-7xl">Transforming ideas into REALITY.</h1>
+            </div>
+        </div>
+        <div class=" md:flex justify-center gap-5 items-center md:mt-10 pt-1 md:px-10">
+            <div class="row block">
+                <div class="col">
+                    <div class="flex md:justify-start justify-center">
+                        <div class="items-center">
+                            <h2 class="h2 pt-2 tracking-wider font-bold sm:font-semibold md:font-bold sm:text-xl md:text-3xl lg:text-4xl">I'M JOHN MICHAEL</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class=" flex justify-center md:justify-start ">
+                        <p class="text-xs sm:text-sm md:text-base lg:text-lg sub-title">Aspiring Front-end Developer || UI & UX Designer</p>
+                    </div>
+                </div>
+                <div class="col pt-5">
+                    <div class=" flex justify-center md:justify-start gap-3">
+                        <div class="">
+                            <a href="https://www.linkedin.com/in/john-michael-echemani-909391264/" class=""><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                        </div>
+                        <div>
+                            <a href="https://www.facebook.com/jmdeuda" ><i class="fa-brands fa-facebook fa-lg"></i></a>
+                        </div>
+                        <div>
+                            <a href="https://github.com/Luffyackerman" ><i class="fa-brands fa-github fa-lg"></i></a>
+                        </div>
+                        <div>
+                            <a href="https://twitter.com/abcdefghijey_em" ><i class="fa-brands fa-twitter fa-lg"></i></a>
+                        </div>
+                        <div>
+                            <a href="mailto:deudajm@gmail.com" ><i class="fa-solid fa-envelope fa-lg"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row sm:mt-10 mt-10">
+                <div class="col me">
+                    <div class=" flex justify-center md:justify-center md:ml-10 drop-shadow-2xl">
+                        <img src="images/me2.jpg" alt="me" class="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="flex justify-center scroll-down">
+        <div class="scrolldown" style="--color: #96A9FF">
+            <div class="chevrons">
+                <div class="chevrondown"></div>
+                <div class="chevrondown"></div>
+            </div>
+        </div>
+    </div>
+    <section id="projects-section" class="pt-5 p-2">
+            <div class="flex justify-center mb-5 pt-11">
+                <h2 class=" font-semibold tracking-wider text-sm">PROJECTS</h2>
+            </div>
+            <div class="flex justify-center mb-10">
+                <h2 class="pl-5 pro-text font-bold tracking-wider sm:text-lg md:text-2xl lg:text-4xl">Things i've done in the world of programming.</h2>
+            </div>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 place-items-center xl:px-44 pt-5" data-aos="fade-up"
+            data-aos-duration="3000">
+                <div class="shadow-lg p-2 rounded-md pro-cont">
+                    <div class="pro-img">
+                        <img src="images/luffy.png" alt="" class="rounded-lg">
+                    </div>
+                    <div class="pt-2 pb-1">
+                        <p class="font-medium text-base pl-2">One Piece Website</p>
+                        <div class="md:hidden  flex lg:flex gap-2 p-2">
+                            <p class=" tracking-wider text-xs font-medium text-red-500 bg-red-100 bg- px-2 py-1 rounded-xl ">HTML</p>
+                            <p class=" tracking-wider text-xs font-medium text-indigo-500 bg-violet-100 bg- px-2 py-1 rounded-xl ">BOOTSTRAP</p>
+                            <p class=" tracking-wider text-xs font-medium text-blue-800 bg-blue-100 bg- px-2 py-1 rounded-xl ">CSS</p>
+                        </div>
+                        <div class="hidden md:flex lg:hidden gap-2 p-2">
+                            <p><i class="fa-brands fa-html5 fa-sm" style="color: #e04a24;"></i></p>
+                            <p><i class="fa-brands fa-css3-alt fa-sm" style="color: #2171fd;"></i></p>
+                            <p><i class="fa-brands fa-bootstrap fa-sm" style="color: #7d34d5;"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-lg p-2 rounded-md pro-cont">
+                    <div class="pro-img">
+                        <img src="images/portfolio.png" alt="" class="rounded-lg">
+                    </div>
+                    <div class="pt-2 pb-1">
+                        <p class="font-medium text-base pl-2">Personal Porfolio</p>
+                        <div class="flex md:hidden lg:flex gap-2 p-2">
+                            <p class=" tracking-wider text-xs font-medium text-red-500 bg-red-100 bg- px-2 py-1 rounded-xl ">HTML</p>
+                            <p class=" tracking-wider text-xs font-medium text-blue-500 bg-indigo-100 bg- px-2 py-1 rounded-xl ">TAILWINDCSS</p>
+                            <p class=" tracking-wider text-xs font-medium text-blue-800 bg-blue-100 bg- px-2 py-1 rounded-xl ">CSS</p>
+                            <p class=" tracking-wider text-xs font-medium text-yellow-500 bg-yellow-50 bg- px-2 py-1 rounded-xl ">JS</p>
+                        </div>
+                        <div class="hidden md:flex lg:hidden gap-2 p-2">
+                            <p><i class="fa-brands fa-html5 fa-sm" style="color: #e04a24;"></i></p>
+                            <p><i class="fa-brands fa-css3-alt fa-sm" style="color: #2171fd;"></i></p>
+                            <p><i class="fa-brands fa-js fa-sm" style="color: #ecc918;"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-lg p-2 rounded-md pro-cont">
+                    <div class="pro-img">
+                        <img src="images/expert system.png" alt="" class="rounded-lg">
+                    </div>
+                    <div class="pt-2 pb-1">
+                        <p class="font-medium text-base pl-2">Online Computer Troubleshooting</p>
+                        <div class="md:hidden flex lg:flex gap-2 p-2">
+                            <p class=" tracking-wider text-xs font-medium text-red-500 bg-red-100 bg- px-2 py-1 rounded-xl">HTML</p>
+                            <p class=" tracking-wider text-xs font-medium text-indigo-500 bg-violet-100 bg- px-2 py-1 rounded-xl md:rounded-none lg:rounded-xl ">BOOTSTRAP</p>
+                            <p class=" tracking-wider text-xs font-medium text-blue-800 bg-blue-100 bg- px-2 py-1 rounded-xl md:rounded-none lg:rounded-xl ">CSS</p>
+                            <p class=" tracking-wider text-xs font-medium text-yellow-500 bg-yellow-50 bg- px-2 py-1 rounded-xl md:rounded-none lg:rounded-xl ">JS</p>
+                            <p class=" tracking-wider text-xs font-medium text-violet-700 bg-violet-100 bg- px-2 py-1 rounded-xl md:rounded-none lg:rounded-xl ">PHP</p>
+                        </div>
+                        <div class="hidden md:flex lg:hidden gap-2 p-2">
+                            <p><i class="fa-brands fa-html5 fa-sm" style="color: #e04a24;"></i></p>
+                            <p><i class="fa-brands fa-css3-alt fa-sm" style="color: #2171fd;"></i></p>
+                            <p><i class="fa-brands fa-js fa-sm" style="color: #ecc918;"></i></p>
+                            <p><i class="fa-brands fa-bootstrap fa-sm" style="color: #7d34d5;"></i></p>
+                            <p><i class="fa-brands fa-php fa-sm" style="color: #8f00d1;"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-lg p-2 rounded-md pro-cont">
+                    <div class="pro-img">
+                        <img src="images/cal.png" alt="" class="rounded-lg">
+                    </div>
+                    <div class="pt-2 pb-1">
+                        <p class="font-medium text-base pl-2">Basic Calculator</p>
+                        <div class="md:hidden flex lg:flex gap-2 p-2">
+                            <p class=" tracking-wider text-xs font-medium text-red-500 bg-red-100 bg- px-2 py-1 rounded-xl">HTML</p>
+                            <p class=" tracking-wider text-xs font-medium text-indigo-500 bg-violet-100 bg- px-2 py-1 rounded-xl">BOOTSTRAP</p>
+                            <p class=" tracking-wider text-xs font-medium text-blue-800 bg-blue-100 bg- px-2 py-1 rounded-xl">CSS</p>
+                            <p class=" tracking-wider text-xs font-medium text-yellow-500 bg-yellow-50 bg- px-2 py-1 rounded-xl">JS</p>
+                        </div>
+                        <div class="hidden md:flex lg:hidden gap-2 p-2">
+                            <p><i class="fa-brands fa-html5 fa-sm" style="color: #e04a24;"></i></p>
+                            <p><i class="fa-brands fa-css3-alt fa-sm" style="color: #2171fd;"></i></p>
+                            <p><i class="fa-brands fa-js fa-sm" style="color: #ecc918;"></i></p>
+                            <p><i class="fa-brands fa-bootstrap fa-sm" style="color: #7d34d5;"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-lg p-2 rounded-md pro-cont">
+                    <div class="pro-img">
+                        <img src="images/payroll.png" alt="" class="rounded-lg">
+                    </div>
+                    <div class="pt-2 pb-1">
+                        <p class="font-medium text-base pl-2">Dynamic Register,Login,<br> and Dashboard of Payroll System</p>
+                        <div class="md:hidden flex lg:flex gap-2 p-2">
+                            <p class=" tracking-wider text-xs font-medium text-red-500 bg-red-100 bg- px-2 py-1 rounded-xl">HTML</p>
+                            <p class=" tracking-wider text-xs font-medium text-indigo-500 bg-violet-100 bg- px-2 py-1 rounded-xl">BOOTSTRAP</p>
+                            <p class=" tracking-wider text-xs font-medium text-blue-800 bg-blue-100 bg- px-2 py-1 rounded-xl">CSS</p>
+                            <p class=" tracking-wider text-xs font-medium text-yellow-500 bg-yellow-50 bg- px-2 py-1 rounded-xl">JS</p>
+                            <p class=" tracking-wider text-xs font-medium text-violet-700 bg-violet-100 bg- px-2 py-1 rounded-xl md:rounded-none lg:rounded-xl ">PHP</p>
+                        </div>
+                        <div class="hidden md:flex lg:hidden gap-2 p-2">
+                            <p><i class="fa-brands fa-html5 fa-sm" style="color: #e04a24;"></i></p>
+                            <p><i class="fa-brands fa-css3-alt fa-sm" style="color: #2171fd;"></i></p>
+                            <p><i class="fa-brands fa-js fa-sm" style="color: #ecc918;"></i></p>
+                            <p><i class="fa-brands fa-bootstrap fa-sm" style="color: #7d34d5;"></i></p>
+                            <p><i class="fa-brands fa-php fa-sm" style="color: #8f00d1;"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="about-section">
+        <div class="flex justify-center">
+            <h2 class=" font-semibold tracking-wider text-sm pt-5">ABOUT</h2>
+        </div>
+        <div class="flex justify-center mb-5">
+            <h2 class=" pro-text font-bold tracking-wider sm:text-lg md:text-2xl lg:text-4xl">It's me.</h2>
+        </div>
+        <div class="flex justify-center pt-5 text-center md:px-10 lg:px-20 2xl:px-50">
+            <div class="px-5 py-5">
+                <p class="tracking-wide"><strong>Welcome!</strong>
+                I'm <i class="font-medium">John Michael D. Echemani</i>, an aspiring Front-End Developer who 
+                is passionate about developing<br> visually appealing websites
+                 that engage and capture users' attention.<br>I create user interfaces that not only look 
+                 beautiful but are also intuitive and easy to use. 
+                </p>
+            </div>
+        </div>
+        <div class="flex justify-center mb-10">
+            <h2 class="pl-5 pro-text pro-text-label font-medium tracking-wider sm:text-base md:text-xl lg:text-2xl">Programming Languages</h2>
+        </div>
+    <div class="block md:flex gap-5 justify-center md:mt-10 sm:ml-2 sm:mr-2" data-aos="fade-up"
+    data-aos-duration="3000">
+        <div class="row about-row p-5 bg-opacity-30 rounded-md shadow-xl mb-3 hover:bg-opacity-50 ">
+            <div class="col">
+                <div>
+                    <h3 class="font-semibold text-lg">Front-end:</h3>
+                </div>
+                <div class="mb-3 pt-5">
+                    <p>HTML</p>
+                    
+                </div><hr class="border-dotted">
+                <div class="mt-3 mb-3">
+                    <p>CSS</p>
+                </div>
+                <hr class="border-dotted">
+                <div class="mt-3">
+                    <p>JAVASCRIPT</p>
+                </div>
+            </div>
+        </div>
+        <div class="row about-row  p-5 bg-opacity-30 rounded-md shadow-xl mb-3 hover:bg-opacity-50 ">
+            <div class="col">
+                <div>
+                    <h3 class="font-semibold text-lg">Front-end: Frameworks</h3>
+                </div>
+                <div class=" mb-3 pt-5">
+                    <p>BOOTSTRAP</p>
+                </div>
+                <hr class="border-dotted">
+                <div class="mt-3 mb-3">
+                    <p>TAILWINDCSS</p>
+                </div>
+                <hr class="border-dotted">
+                <div class="mt-3">
+                    <p>REACT</p>
+                </div>
+           </div>
+        </div>
+        <div class="row about-row  p-5 bg-opacity-30 rounded-md shadow-xl mb-3 hover:bg-opacity-50 ">
+            <div class="col">
+                <div>
+                    <h3 class="font-semibold text-lg">Back-end:</h3>
+                </div>
+                <div class=" mb-3 pt-5">
+                    <p>PHP</p>
+                </div>
+                <hr class="border-dotted">
+                <div class="mt-3 mb-3">
+                    <p>MYSQL</p>
+                </div>
+                <hr class="border-dotted">
+                <div class="mt-3">
+                    <p>FIREBASE</p>
+                </div>
+           </div>
+        </div>
+        <div class="row about-row  p-5 bg-opacity-30 rounded-md shadow-xl mb-3 hover:bg-opacity-50 ">
+            <div class="col">
+                <div>
+                    <h3 class="font-semibold text-lg">Back-end: Frameworks</h3>
+                </div>
+                <div class="pt-5">
+                    <p>LARAVEL</p>
+                </div>
+           </div>
+        </div>
+        <div class="row about-row  p-5 bg-opacity-30 rounded-md shadow-xl mb-3 hover:bg-opacity-50 ">
+            <div class="col">
+                <div>
+                    <h3 class="font-semibold text-lg">Basics</h3>
+                </div>
+                <div class="mb-3 pt-5">
+                    <p>C++</p>
+                </div>
+                <hr class="border-dotted">
+                <div class="mt-3 mb-3">
+                    <p>PYTHON</p>
+                </div>
+                <hr class="border-dotted">
+                <div class="mt-3">
+                    <p>JAVA</p>
+                </div>
+           </div>
+        </div>
+    </div>
+           <h2 class=" flex justify-center pt-5 pb-5 pro-text pro-text-label font-medium tracking-wider sm:text-base md:text-xl lg:text-2xl">My Education</h2>
+        <div class="flex justify-center relative" data-aos="fade-up"
+        data-aos-duration="3000">
+            <div class="row row-edu relative sm:pl-5">
+                <span class="span2"></span>
+                <span class="span"></span>
+              <div class="shadow-md p-2 rounded-md">
+                <p class="text-xs text-red-400 font-thin">2021-2025</p>
+                <div class="col">
+                    <P class=" text-xs md:text-base font-medium">COMPUTER ARTS AND TECHNOLOGICAL COLLEGE INC.</P>
+                    <p class="text-sm">Bachelor of Science in Information Technology</p>
+                </div>
+              </div>
+
+                <div class="pt-20">
+                    <div class="shadow-md p-2 rounded-md">
+                        <p class="text-xs text-red-400 font-thin">2015-2018</p>
+                    <div class="col">
+                        <P class=" text-xs md:text-base font-medium">BOGTONG NATIONAL HIGH SCHOOL</P>
+                    </div>
+                    <span class="span4"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-edu2 pt-20 relative" >
+               <div class="shadow-md p-2 rounded-md">
+                <p class="text-xs text-red-400 font-thin">2019-2021</p>
+                <div class="col">
+                    <P class="text-xs md:text-base font-medium">COMPUTER ARTS AND TECHNOLOGICAL COLLEGE INC.</P>
+                    <p class="text-sm">General Academic Strand</p>
+                </div>
+                <span class="span3"></span>
+               </div>
+             </div>
+        </div>
+    </section>
+    
+
+    <section id="skill-section">
+        <div class="skill-bg">
+            <div class="flex justify-center">
+                <h2 class="font-semibold tracking-wider text-sm pt-5">SKILLS</h2>
+            </div>
+            <div class="flex justify-center mb-10">
+                <h2 class=" pro-text font-bold tracking-wider sm:text-lg md:text-2xl lg:text-4xl">Why me?</h2>
+            </div>
+        <div class="block md:flex gap-10 justify-center items-center md:mt-10" data-aos="fade-up"
+        data-aos-duration="3000">
+            <div class="row shadow-lg md:w-60 lg:w-80 mb-10 skill-row">
+                <div class="col">
+                    <div class="flex justify-center">
+                        <div class=" w-10 pt-5 justify-center rounded-sm pb-5">
+                            <i class="fa-solid fa-pen-nib fa-2xl"></i>
+                        </div>
+                    </div>
+                    <div class="pt-1 flex justify-center pb-5">
+                        <h2 class="font-semibold tracking-wider skill-h2 md:text-lg">DESIGNING</h2>
+                    </div>
+                    <div class="p-5">
+                        <div class="flex pb-2">
+                            <h2 class=" text-base text-red-500 font-medium tracking-wider">F</h2>
+                            <h2 class=" text-base text-red-400 font-medium tracking-wider">I</h2>
+                            <h2 class=" text-base text-violet-500 font-medium tracking-wider">G</h2>
+                            <h2 class=" text-base text-green-600 font-medium tracking-wider">M</h2>
+                            <h2 class=" text-base text-green-300 font-medium tracking-wider">A</h2>
+                        </div>
+                        <p class="text-slate-200">Creating a beautiful user interface prototypes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row shadow-lg md:w-60 lg:w-80 mb-10 skill-row">
+                <div class="col">
+                    <div class="flex justify-center">
+                        <div class=" w-10 pt-5 justify-center rounded-sm pb-5">
+                            <i class="fa-brands fa-uikit fa-2xl"></i>
+                        </div>
+                    </div>
+                    <div class="pt-1 flex justify-center pb-5">
+                        <h2 class="font-semibold tracking-wider skill-h2 md:text-lg">FRONT-END DEV</h2>
+                    </div>
+                    <div class="p-5">
+                        <h2 class="pb-2 text-base text-red-400 font-medium tracking-wider">HTML</h2>
+                        <p class="text-slate-200">Having a good understanding in creating website structures.</p>
+                    </div>
+                    <div class="p-5">
+                        <h2 class="pb-2 text-base text-blue-500 font-medium tracking-wider">TAILWINDCSS || BOOTSTRAP</h2>
+                        <p class="text-slate-200">Making a beautiful and responsive user interfaces.</p>
+                    </div>
+                    <div class="p-5">
+                        <h2 class="pb-2 text-base text-indigo-600 font-medium tracking-wider">REACT</h2>
+                        <p class="text-slate-200">Making a dynamic, functional, reusable components.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row shadow-lg md:w-60 lg:w-80 mb-10 skill-row">
+                <div class="col">
+                    <div class="flex justify-center">
+                        <div class="pb-5 w-10 pt-5 justify-center rounded-sm">
+                            <i class="fa-solid fa-server fa-2xl"></i>
+                        </div>
+                    </div>
+                    <div class="pt-1 flex justify-center pb-5">
+                        <h2 class="font-semibold tracking-wider md:text-lg skill-h2">BACK-END DEV</h2>
+                    </div>
+                    <div class="p-5">
+                        <h2 class="pb-2 text-base text-violet-500 font-medium tracking-wider">PHP || MYSQL || FIREBASE</h2>
+                        <p class="text-slate-200">Creating a databases auth, able to read, update, delete, and display data in User Interface.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" block md:flex justify-center gap-10"  data-aos="fade-up"
+        data-aos-duration="3000">
+            <div class="row block shadow-lg md:w-60 lg:w-80 mb-10 skill-row">
+                <div class="col">
+                    <div class="flex justify-center">
+                        <div class=" w-10 pt-5 justify-center rounded-sm pb-5">
+                            <i class="fa-sharp fa-solid fa-comments fa-2xl"></i>
+                        </div>
+                    </div>
+                    <div class="pt-1 flex justify-center pb-2">
+                        <h2 class="skill-h2 font-semibold tracking-wider md:text-lg">COMMUNICATION</h2>
+                    </div>
+                    <div>
+                        <p class="text-start p-5 text-slate-200">I'm a good communicator, i adapt and connect with diverse individual, ensure a deep understanding in achiving a exceptional outcomes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row block shadow-lg md:w-60 lg:w-80 mb-10 skill-row">
+                <div class="col">
+                    <div class="flex justify-center">
+                        <div class=" w-10 pt-5 justify-center rounded-sm pb-5">
+                            <i class="fa-brands fa-steam fa-2xl"></i>
+                        </div>
+                    </div>
+                    <div class="pt-1 flex justify-center pb-2">
+                        <h2 class="skill-h2 font-semibold tracking-wider md:text-lg">TEAM</h2>
+                    </div>
+                    <div>
+                        <p class="text-start p-5 text-slate-200">Passionate about collaboration and sharing of knowledge, insights for continuous growth.</p>
+                    </div>
+                </div>
+            </div>
+         </div>
+      </div>
+    </section>
+
+    <div>
+        <footer class=" pt-5 bg-slate-800 text-slate-400 shadow-2xl">
+            <div class="flex justify-center items-center footer-logo pb-10">
+                <img src="images/logo.png" alt="">
+             </div>
+            <div class="block md:flex justify-evenly items-center gap-10">
+                <div class="flex justify-center row items-center">
+                    <div class="col pb-10">
+                         <h4 class="font-semibold tracking-wider">JOHN MICHAEL D. ECHEMANI</h4>
+                         <div class="flex justify-center">
+                            <p class="font-light text-sm">PORTFOLIO</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="flex justify-center row gap-10">
+                    <div class="col pb-10">
+                        <div>
+                            <h4 class="font-semibold pb-5 tracking-wider">Follow me</h4>
+                        </div>
+                        <div class=" flex justify-center md:justify-start gap-3">
+                            <div>
+                                <a href="https://www.linkedin.com/in/john-michael-echemani-909391264/" ><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                            </div>
+                            <div>
+                                <a href="https://www.facebook.com/jmdeuda"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                            </div>
+                            <div>
+                                <a href="https://github.com/Luffyackerman"><i class="fa-brands fa-github fa-lg"></i></a>
+                            </div>
+                            <div>
+                                <a href="https://twitter.com/abcdefghijey_em"><i class="fa-brands fa-twitter fa-lg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col pb-10">
+                        <div>
+                            <h4 class="font-semibold pb-5 tracking-wider">Contact me</h4>
+                        </div>
+                        <div class=" block justify-start gap-3">
+                            <div class="mb-1">
+                                <a href="mailto:deudajm@gmail.com" class="hover:"><i class="fa-solid fa-envelope fa-lg"></i> Email</a>
+                            </div>
+                            <div>
+                                <a href="tel:09093046973" class="hover:"><i class="fa-solid fa-phone fa-lg"></i> Phone</a>
+                            </div>
+                        </div>
+                    </div>
+             </div>
+            </div>
+            <div class="flex justify-center pt-5 pb-1 gap-2 items-center">
+                <i class="fa-regular fa-copyright text-sm"></i>
+                <p class="text-xs tracking-wider"> JME-2023</p>
+             </div>
+        </footer>
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
